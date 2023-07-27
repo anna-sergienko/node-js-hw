@@ -1,0 +1,31 @@
+{
+  "name": "hw-01",
+  "version": "1.0.0",
+  "description": "Node.js hw-01",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anna-sergienko/node-js-hw.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Anna Serhiienko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anna-sergienko/node-js-hw/issues"
+  },
+  "homepage": "https://github.com/anna-sergienko/node-js-hw#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "nanoid": "^3.3.4"
+  }
+}
